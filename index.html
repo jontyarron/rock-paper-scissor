@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    
+<header><h1 class="header-text">Rock, Paper, Scissors</h1></header>
+<div class="container">
 
+  <div class="sub-container">
+  <div id="user" class="selections"> 
+ <button id="user-button" data-selection="✊" >✊</button>
+  
+  
+  <button id="user-button" data-selection="✋">✋</button>
+  
+  
+  <button id="user-button" data-selection="✌" >✌</button>
+  
+</div>
 
+<div class="match-container">
 
-    <script src="script.js"></script>
+<div class="final-outcome"></div>
+<div class="user-move">
+</div>
+
+<div class="score">
+  <div class="user-score">
+<h1 class="user-score-heading">You</h1>
+<span class="result-score" data-your-score>0</span>
+</div>
+
+<div class="com-score">
+<h1 class="com-score-heading">com</h1>
+<span class="result-score" data-com-score>0</span>
+</div>
+</div>
+
+<div class="com-move"> </div>
+</div>
+</div>
+
+<div class="result">
+
+</div>
+<div id="reset-div">
+  <button id="reset">Reset Scores</button>
+  </div>
+
+<footer>
+  <h2>Copyright &#169 jontyarron 2022</h2>
+</footer>
+</div>
 </body>
-</html>
+</html> 

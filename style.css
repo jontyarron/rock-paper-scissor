@@ -101,9 +101,8 @@ header{
     border-radius: px;
     border-style: solid;
     border-color: orangered;
-    border-right-width: 10px;
-    border-right-color: rgba(0, 0, 0, 0.863);
-    border-top-color: black;
+    border-right: none;
+    border-top: none;
     margin-top: -50px;
     width: 200px;
     padding-right: 200px;
